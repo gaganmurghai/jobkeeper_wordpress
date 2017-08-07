@@ -1,0 +1,51 @@
+.container1{max-width: 900px;width: 100%;margin: 0 auto;}
+         *{box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;}
+
+         .container1 h1{margin-bottom: 50px;text-align: center;}
+         .container1 h3{margin-bottom: 0px;margin-top: 0;font-size: 16px;}
+         .container1 p{margin-top: 0;margin-bottom: 0px;}
+         .midd-cont{width: 100%;display: block;margin-top: 30px;}
+         .left-cont{width: 58%; float: left;}
+         .left-cont hr{box-shadow: none;border-left: none;border-right: none;border-top: none;border-bottom: 1px solid #000;padding-top: 20px;}
+         .right-cont {float:right;width: 39%;margin-left: 20px;}
+     .right-cont h4 {border-bottom: 1px solid #000; margin-top: 0; padding-bottom: 8px; font-size: 16px; margin-bottom: 15px; line-height: 22px; }
+         .invoice-cont ul{margin: 0;padding: 0;line-height: 10px;}
+         .invoice-cont ul li{display: inline-block;list-style: none;margin-right: 5px;width: 43%;padding-bottom: 0px;font-size: 10px;}
+         .invoice-cont ul:last-child{margin-top: 8px;}
+         .clear{clear: both;margin: 0;padding: 0;float: none;}
+         .invoice-table{width: 100%;margin-top: 40px; font-size: 10px}
+         .invoice-table thead tr th {border-top: 1px solid #000; border-bottom: 1px solid #000; text-align: right; padding: 6px 4px; }
+         .invoice-table tbody td{text-align: right;padding-top: 8px;font-size: 14px;}
+         .table-total{border-top: 1px solid #000; margin-top: 214px;padding-top: 20px;}
+         .left-total{width: 64%; float: left;}
+         .left-total p{font-size: 10px;}
+         .right-total{float:right;width: 33%;margin-left: 20px;text-align:right;border-bottom: 1px solid #000;padding-bottom: 10px;}
+         .right-total ul{margin:0 auto 4px auto;padding: 0;display: table;width: 100%;}
+         .right-total ul:last-child li{font-weight: 600;margin-top: 10px;}
+         .right-total ul li{list-style: none;display: table-cell;width: 45%;font-size: 15px;}
+         .bottom-cont{margin-top: 40px;border-bottom: 1px solid #000;padding-bottom: 15px;}
+         .bottom-cont p{font-size: 14px;margin-bottom: 0px;}
+         .bottom-cont p:last-child{margin-top: 30px;display: block;width: 100%;font-style: italic;}
+            .bottom-cont p em{margin-top: 30px;}
+         .footer-incoive p{text-align: center;text-transform: capitalize;font-size: 14px;}
+         .footer-incoive{padding-top: 10px;}
+         .footer-incoive p a{color:inherit;text-decoration: none;}
+        @media screen and (max-width:1100px) {
+    .container1{padding-left: 15px;padding-right: 15px;}
+    .left-cont,.left-total{width: 60%;}
+    .right-cont,.right-total{width: 37%;}
+    .invoice-cont ul li{width: 47%;}
+    .right-total ul li{width: 49%;font-size: 21px;}
+.bottom-cont p{font-size: 20px;}
+
+        }
+ @media screen and (max-width:800px) {
+      .left-cont,.left-total{width: 49%;}
+        .right-cont,.right-total{width: 47%;}
+      }
+
+ @media screen and (max-width:640px) {
+      .left-cont,.left-total{width: 46%;}
+        .right-cont,.right-total{width: 50%;}
+        .table-total{margin-top: 600px;}
+ }

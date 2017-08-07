@@ -1,0 +1,87 @@
+
+.second-upload{padding-top: 15px;}
+.sig-outer img{margin: 0 auto;display: block;text-align: center;}
+.photo-circle > img {
+    width: 250px;
+    height: auto !important;
+    max-width: 250px !important;
+    margin-bottom:15px;
+}
+.photo-circle{height: auto;width: 100%;}
+.custom-upload .form-input{margin-top: 0;}
+
+.custom-upload  .full-width{
+    float:left;width:100%;margin-top:30px;min-height:100px;position:relative;
+}
+.custom-upload  .form-style-fake{position:absolute;top:0px;}
+.custom-upload  .form-style-base{position:absolute;top:0px;z-index: 999;opacity: 0;}
+.custom-upload  .imgCircle{border-radius: 50%;}
+.custom-upload  .form-control{padding: 10px 50px;}
+.custom-upload  .form-input{height:auto;border-radius: 0px;margin-top: 20px;cursor: pointer;}
+.custom-upload  .Profile-input-file{
+    height:180px;width:180px;left:33%;
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    opacity: 0 !important;
+}
+.custom-upload .mg-auto{
+    margin:0 auto;max-width: 200px;overflow: hidden;
+}
+.custom-upload  .fake-styled-btn{
+    background: #47f4d4;
+    padding: 10px;
+    color: #322c4e;
+    line-height: 28px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.custom-upload  #main-input{width:250px; cursor: pointer;}
+.custom-upload  .input-place{
+    position: absolute;top:35px;left: 20px;font-size:23px;color:gray;}
+.custom-upload  .margin{margin-top:10px;margin-bottom:10px;}
+.custom-upload  .truncate {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+     cursor: pointer;
+     margin: 0 auto;
+}
+
+.custom-upload  #PicUpload{
+    color: #ffffff;
+    width: 180px;
+    height: 180px;
+    background: rgba(255,255,255,0.4);
+    padding: 100px;
+    position: absolute;
+    left: 30.5%;
+    border-radius: 50%;
+    display: none;
+    top:15px;
+}
+
+
+/*====== style for placeholder ========*/
+
+.custom-upload  .form-control::-webkit-input-placeholder {
+    color:lightgray;
+    font-size:18px;
+}
+.custom-upload  .form-control:-moz-placeholder {
+    color:lightgray;
+    font-size:18px;
+}
+.custom-upload  .form-control::-moz-placeholder {
+    color:lightgray;
+    font-size:18px;
+}
+.custom-upload .form-control:-ms-input-placeholder {
+    color:lightgray;
+    font-size:18px;
+}
+    
